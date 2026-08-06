@@ -26,8 +26,8 @@ Thumbs.db
 workspace/
 *-workspace/
 
-# Evals (test data, don't ship)
-code-cannibalizer-workspace/
+# Old structure (don't commit)
+.opencode/
 
 # Generated files
 *.log
