@@ -1,0 +1,23 @@
+{
+  "skill_name": "code-cannibalizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to build a real-time collaborative editor like Notion or Google Docs. Find me some open source repos that have solved the CRDT and WebSocket parts, map their structure, and show me what's worth stealing.",
+      "expected_output": "The skill should find repos like Yjs, Automerge, or similar CRDT libraries, clone them, map their structure into graph.json + Graph.html + GRAPH_REPORT.md, and provide a synthesis report with extracted patterns.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I'm building a CLI tool in Rust and need a good argument parser. Can you look at clap and structopt repos, extract how they handle subcommands and help text generation, and give me a minimal template I can use?",
+      "expected_output": "The skill should clone clap and/or structopt repos, use targeted extraction to find subcommand handling and help text patterns, and produce a minimal Rust CLI template using the best patterns found.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to add OAuth2 authentication to my Node.js API. Find repos that implement passport.js or similar auth flows, show me their middleware patterns, and extract the token refresh logic.",
+      "expected_output": "The skill should find passport.js or similar auth repos, extract middleware patterns and token refresh logic, and provide a ready-to-use auth middleware implementation.",
+      "files": []
+    }
+  ]
+}
