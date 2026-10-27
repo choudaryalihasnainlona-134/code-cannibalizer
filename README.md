@@ -1,25 +1,7 @@
-# Code Cannibalizer
 
-"Copy from one, it's theft. Copy from a thousand, it's creation."
 
-Surgically extract proven code patterns from existing repositories and synthesize them into new projects. Works with Claude Code, OpenCode, Cursor, and any agent that supports the Agent Skills spec.
 
-## Installation
 
-### Option 1: skills.sh (Recommended)
-
-```bash
-npx skills add michielhdoteth/code-cannibalizer
-```
-
-### Option 2: Clone and Copy
-
-```bash
-git clone https://github.com/michielhdoteth/code-cannibalizer.git
-cp -r code-cannibalizer/skills/* .agents/skills/
-```
-
-### Option 3: Git Submodule
 
 ```bash
 git submodule add https://github.com/michielhdoteth/code-cannibalizer.git .agents/code-cannibalizer
@@ -88,6 +70,4 @@ Phase 4: Cleanup
 | `scripts/pattern_analyzer.py` | Analyze patterns from graph.json | `python3 scripts/pattern_analyzer.py <paths> -o output.json [--fast] [--full-graph]` |
 | `scripts/security_scanner.py` | Scan for security issues | `python3 scripts/security_scanner.py <repo_path> -o report.json [--scan-git]` |
 
-## License
-
-GPL-3.0 - see [LICENSE](LICENSE)
+## Licen
